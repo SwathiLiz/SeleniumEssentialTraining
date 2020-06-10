@@ -21,7 +21,7 @@ public class FormPage {
         dateField.sendKeys("05/20/2020");
         dateField.sendKeys(Keys.RETURN);
 
-        driver.findElement(By.cssSelector(".btn,btn-lg.btn-primary")).click();
+        driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
     }
 
 }
